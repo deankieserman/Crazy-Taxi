@@ -5,12 +5,6 @@
 #include <Adafruit_STMPE610.h>
 #include <avr/power.h>
 
-// This is calibration data for the raw touch data to the screen coordinates
-#define TS_MINX 150
-#define TS_MINY 130
-#define TS_MAXX 3800
-#define TS_MAXY 4000
-
 // The STMPE610 uses hardware SPI on the shield, and #8
 #define STMPE_CS 8
 Adafruit_STMPE610 ts = Adafruit_STMPE610(STMPE_CS);
